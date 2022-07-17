@@ -27,12 +27,14 @@ spring:
         # 共享配置
         shared-configs:
           - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+        namespace: 9a142550-21f0-4c45-9804-472f3ae93dbd
+        group: DEV_GROUP
     sentinel:
       # 取消控制台懒加载
       eager: true
       transport:
         # 控制台地址
-        dashboard: 127.0.0.1:8718
+        dashboard: 127.0.0.1:8180
       # nacos配置持久化
       datasource:
         ds1:

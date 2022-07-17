@@ -45,6 +45,7 @@
     <modules>
         <module>jul17-gateway</module>
         <module>jul17-monitor</module>
+        <module>jul17-common</module>
     </modules>
 
     <!-- 依赖声明 -->
